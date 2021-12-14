@@ -1,7 +1,10 @@
-import { Component } from "react";
 import "../estilo/cabeçalho.css"
 import { Link } from "react-router-dom"
+import { Component } from "react";
 export default class Cabeçalho extends Component {
+    fecharMenu() {
+        document.getElementById('inputBotaomenu').checked = false
+    }
     render() {
         return (
             <header>
@@ -13,13 +16,14 @@ export default class Cabeçalho extends Component {
                         <div className="trace"></div>
                     </label>
                     <input type="checkbox" name="inputBotaomenu" id="inputBotaomenu" />
-                    <nav id="navegação">
-                        <Link className="link" to="/" >Início</Link>
-                        <Link className="link" to="projetos" >Projetos</Link>
-                        <Link className="link" to="contato" >Contato</Link>
+                    <nav id="navegação" htmlFor="inputBotaomenu">
+                        <Link className="link" onClick={() => this.fecharMenu()} to="/" >Início</Link>
+                        <Link className="link" onClick={() => this.fecharMenu()} to="projetos" >Projetos</Link>
+                        <Link className="link" onClick={() => this.fecharMenu()} to="contato" >Contato</Link>
                     </nav>
                 </div>
             </header>
         )
     }
+
 }
