@@ -7,7 +7,7 @@ export default class Cabeçalho extends Component {
             <header>
                 <h1>Título</h1>
                 <div className="menu">
-                    <label for="inputBotaomenu" id="botaolabel">
+                    <label htmlFor="inputBotaomenu" id="botaolabel">
                         <div className="trace"></div>
                         <div className="trace"></div>
                         <div className="trace"></div>

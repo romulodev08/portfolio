@@ -44,6 +44,7 @@ input[name="inputBotaomenu"] {
 #navegação {
     position: absolute;
     width: 100%;
+    display: block;
     text-align: center;
     margin-top: 50px;
     visibility: hidden;
@@ -79,6 +80,7 @@ input[name="inputBotaomenu"]:checked ~ #navegação {
     }
 }
 .link {
+    display: block;
     padding: 6px;
     border-radius: 10px;
     text-decoration-line: none;
