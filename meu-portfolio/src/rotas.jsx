@@ -1,5 +1,5 @@
-import Cabeçalho from "./componentes/cabeçalho.jsx"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Cabeçalho from "./componentes/cabeçalho.jsx"
 import Inicial from "./componentes/inicial.jsx"
 import Contato from "./componentes/contato.jsx"
 import Projetos from "./componentes/projetos.jsx"
