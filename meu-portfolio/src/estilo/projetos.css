@@ -1,7 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.projetosContainer {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+    display: grid;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: rgba(255, 0, 0, 0);
+}
+.projeto {
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 16px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.projeto details {
+    grid-column: 1;
+    grid-row: 1;
+}
 .projeto details summary {
     list-style-type: none;
+    height: 30px;
+    text-indent: 15px;
+    padding-top: 5px;
+    border-radius: 12px 12px 0 0 ;
+    border-bottom: solid 1px black;
+    font-size: 20px;
+    transition: linear 250ms;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
-
+.projeto details summary:hover {
+    font-size: 22px;
+    padding-top: 3px;
+    cursor: pointer;
+    background-color: rgb(30, 253, 223);
+    color: rgb(0, 0, 0);
+}
+.projeto details section {
+    position: relative;
+    height: calc(100% - 30px);
+    padding: 15px;
+    border-radius:  0 0 12px 12px;
+    z-index: 2;
+    background-color: darkgrey;
+}
+.projeto .thumb {
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    margin-top: 30px;
+}
+.projeto .thumb a {
+    width: 100%;
+    height: 100%;
+}
+.projeto .thumb img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 15px;
+    transition: linear 200ms;
+}
+.projeto .thumb img:hover {
+    transform: scale(1.06);
+    border-radius: 50px;
+}
+@media (min-width: 620px) {
+    .projetosContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
 
 
