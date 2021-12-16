@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu+Mono&display=swap');
+/* font-family: 'Ubuntu Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik&family=Ubuntu+Mono&display=swap');
+/* font-family: 'Ubuntu Mono', monospace; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+.apresentação {
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 25px;
+}
+.apresentação > .containerImg {
+    grid-column: 1;
+    grid-row: 1;
+}
+.apresentação > .saudação {
+    padding: 15px;
+}
+.apresentação > .saudação > .saudaçãoItem {
+    position: relative;
+    top: 100px;
+}
+*/

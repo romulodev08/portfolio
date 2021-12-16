@@ -8,7 +8,7 @@ export default class Cabeçalho extends Component {
     render() {
         return (
             <header>
-                <h1>Título</h1>
+                <h1>Port<span>fólio</span></h1>
                 <div className="menu">
                     <label htmlFor="inputBotaomenu" id="botaolabel">
                         <div className="trace"></div>

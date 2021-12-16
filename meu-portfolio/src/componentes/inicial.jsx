@@ -2,16 +2,18 @@ import { Component } from "react"
 
 import "../estilo/inicial.css"
 
+import FotoDePerfilA from "../imagens/foto-sem-fundo.png"
 import FotoDePerfil from "../imagens/foto-do-currículo.jpeg"
 import Curriculo from "../documentos/currículoFrontEndJrRom-5.pdf"
+
 export default class Inicial extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            saudação: "Olá"
+            saudação: "..."
         }
     }
-    componentDidMount() {
+    componentWillMount() {
         const saudar = ["Bom dia", "Boa tarde", "Boa noite"]
         setInterval(() => {
             const hora = new Date().getHours()
@@ -28,14 +30,19 @@ export default class Inicial extends Component {
     render() {
         return (
             <div>
-                <section className="saudação">
-                    <p>{this.state.saudação}, meu nome é</p>
-                    <h2>Rômulo Martins</h2>
-                    <p>sou desenvolvedor web Front End</p>
+                <section className="apresentação">
+                    <div className="saudação">
+                        <p className="saudaçãoItem">{this.state.saudação}, meu nome é</p>
+                        <h2 className="saudaçãoItem">Rômulo Martins</h2>
+                        <p className="saudaçãoItem">sou desenvolvedor web Front End Jr e seja bem vindo(a) ao meu portfólio.</p>
+                    </div>
+                    <div className="containerImg">
+                        <img src={FotoDePerfilA} alt="" />
+                    </div>
                 </section>
-                <section className="sobre">
+                <section className="containerSsobre">
                     <h2>Sobre</h2>
-                    <div>
+                    <div className="containerFotoDePerfil">
                         <img src={FotoDePerfil} alt="" />
                     </div>
                     <div className="sobre">
