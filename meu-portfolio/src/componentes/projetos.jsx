@@ -22,7 +22,7 @@ export default function Projetos(props) {
                     </section>
                 </details>
                 <div className="thumb">
-                    <a href="https://romulodev08.github.io/exerc-cursoemvideo/" target="_blank">
+                    <a href="https://romulodev08.github.io/exerc-cursoemvideo/" target="_blank" rel='noopener noreferrer'>
                         <img src={Projeto1jpeg} alt="" />
                     </a>
                 </div>
@@ -39,7 +39,7 @@ export default function Projetos(props) {
                     </section>
                 </details>
                 <div className="thumb">
-                    <a href="https://romulodev08.github.io/divisao-justa-de-custos/" target="_blank">
+                    <a href="https://romulodev08.github.io/divisao-justa-de-custos/" target="_blank" rel='noopener noreferrer'>
                         <img src={Projeto2jpeg} alt="" />
                     </a>
                 </div>
@@ -57,7 +57,7 @@ export default function Projetos(props) {
                     </section>
                 </details>
                 <div className="thumb">
-                    <a href="https://romulodev08.github.io/Calculo-de-juro-montante/" target="_blank">
+                    <a href="https://romulodev08.github.io/Calculo-de-juro-montante/" target="_blank" rel='noopener noreferrer'>
                         <img src={Projeto3jpeg} alt="" />
                     </a>
                 </div>
@@ -75,7 +75,7 @@ export default function Projetos(props) {
                     </section>
                 </details>
                 <div className="thumb">
-                    <a href="https://landing-page1-sigma.vercel.app/" target="_blank">
+                    <a href="https://landing-page1-sigma.vercel.app/" target="_blank" rel='noopener noreferrer'>
                         <img src={Projeto4jpeg} alt="" />
                     </a>
                 </div>
