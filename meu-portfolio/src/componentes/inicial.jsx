@@ -13,20 +13,20 @@ export default class Inicial extends Component {
             saudação: "..."
         }
     }
-    componentWillMount() {
+
+    componentDidMount() {
         const saudar = ["Bom dia", "Boa tarde", "Boa noite"]
         setInterval(() => {
             const hora = new Date().getHours()
-            if(hora >= 6 && hora < 12) {
-                this.setState({saudação: saudar[0]})
-            } else if(hora >= 12 && hora < 18) {
-                this.setState({saudação: saudar[1]})
-            } else if(hora >= 18 || hora < 6) {
-                this.setState({saudação: saudar[2]})
+            if (hora >= 6 && hora < 12) {
+                this.setState({ saudação: saudar[0] })
+            } else if (hora >= 12 && hora < 18) {
+                this.setState({ saudação: saudar[1] })
+            } else if (hora >= 18 || hora < 6) {
+                this.setState({ saudação: saudar[2] })
             }
         }, 1000);
     };
-
     render() {
         return (
             <div>
