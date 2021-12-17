@@ -80,9 +80,19 @@
 .containerSsobre > .sobre {
     grid-row: 2;
     grid-column: 1;
-    max-width: 100%;
+    width: 100%;
     text-align: justify;
     margin: auto;
+}
+.containerSsobre > .sobre a {
+    text-decoration-line: none;
+    padding: 4px;
+    border-radius: 10px;
+    margin-top: 27px;
+    background-color: red;
+    color: black;
+    border: solid 2px white;
+
 }
 .containerSsobre > .containerFotoDePerfil {
     grid-row: 2;
