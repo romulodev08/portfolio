@@ -1,5 +1,5 @@
 import "../estilo/cabeçalho.css"
-import { Link } from "react-router-dom"
+//import { Link } from "react-router-dom"
 import { Component } from "react";
 export default class Cabeçalho extends Component {
     fecharMenu() {
@@ -17,9 +17,12 @@ export default class Cabeçalho extends Component {
                     </label>
                     <input type="checkbox" name="inputBotaomenu" id="inputBotaomenu" />
                     <nav id="navegação" htmlFor="inputBotaomenu">
-                        <Link className="link" onClick={() => this.fecharMenu()} to="/" >Início</Link>
+                        {/*<Link className="link" onClick={() => this.fecharMenu()} to="/" >Início</Link>
                         <Link className="link" onClick={() => this.fecharMenu()} to="projetos" >Projetos</Link>
-                        <Link className="link" onClick={() => this.fecharMenu()} to="contato" >Contato</Link>
+                        <Link className="link" onClick={() => this.fecharMenu()} to="contato" >Contato</Link> */}
+                        <a href="link" onClick={() => this.fecharMenu()} >Início</a>
+                        <a href="link" onClick={() => this.fecharMenu()} >Projetos</a>
+                        <a href="link" onClick={() => this.fecharMenu()} >Contato</a>
                     </nav>
                 </div>
             </header>
