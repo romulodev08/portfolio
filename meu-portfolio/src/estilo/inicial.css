@@ -6,6 +6,11 @@
 /* font-family: 'Ubuntu Mono', monospace; */
 
 
+@font-face {
+    font-family: [Cover];
+    src: url("./fontes/antique_book_cover.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +25,11 @@
     margin: auto;
     margin-top: 10px;
     border-bottom: solid 2px black;
+}
+
+.apresentação h2 {
+    font: normal 25px Cover, sans-serif;
+    color: #247B7B;
 }
 
 .apresentação > .containerImg {
@@ -73,6 +83,7 @@
     grid-row: 1;
     width: 200%;
     margin-bottom: 10px;
+    font: normal 22px Cover, sans-serif;
     text-indent: 15px;
     background: linear-gradient(to right, #247B7B, #3ac0c0, #247b7b09);
     color: #f3f9d2;

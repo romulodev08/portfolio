@@ -12,6 +12,11 @@
     gap: 20px;
     background-color: rgba(255, 0, 0, 0);
 }
+
+a[name="projetos"] {
+    display: none;
+}
+
 .projeto {
     width: 100%;
     border: solid 2px black;

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: [Cover];
+    src: url("./fontes/antique_book_cover.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +18,9 @@ header {
     color: #f3f9d2;
 }
 header > h1 {
-    font-size: 25px;
+    font: normal 25px Cover, sans-serif;
     line-height: -10px;
-    text-decoration: underline 1px rgba(255, 255, 255, 0.226);
+    color: #f3f9d2;
 }
 header > h1 > span {
     color: #247B7B;

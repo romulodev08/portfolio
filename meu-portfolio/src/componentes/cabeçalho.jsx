@@ -20,9 +20,9 @@ export default class Cabeçalho extends Component {
                         {/*<Link className="link" onClick={() => this.fecharMenu()} to="/" >Início</Link>
                         <Link className="link" onClick={() => this.fecharMenu()} to="projetos" >Projetos</Link>
                         <Link className="link" onClick={() => this.fecharMenu()} to="contato" >Contato</Link> */}
-                        <a href="link" onClick={() => this.fecharMenu()} >Início</a>
-                        <a href="link" onClick={() => this.fecharMenu()} >Projetos</a>
-                        <a href="link" onClick={() => this.fecharMenu()} >Contato</a>
+                        <a href="#inicio" className="link" onClick={() => this.fecharMenu()} >Início</a>
+                        <a href="#projetos" className="link" onClick={() => this.fecharMenu()} >Projetos</a>
+                        <a href="#contato" className="link" onClick={() => this.fecharMenu()} >Contato</a>
                     </nav>
                 </div>
             </header>
