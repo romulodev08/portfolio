@@ -30,7 +30,7 @@ export default class Inicial extends Component {
     render() {
         return (
             <div>
-                <a href="#" name="inicio" >&nbsp</a>
+                <a href="/" name="inicio" ></a>
                 <section className="apresentação">
                     <div className="saudação">
                         <p className="saudaçãoItem">{this.state.saudação}, meu nome é</p>

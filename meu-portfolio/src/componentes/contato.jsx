@@ -3,7 +3,7 @@ import "../estilo/contato.css"
 export default function Contato(props) {
     return(
         <div  name="contato" className="containerContato">
-            <a name="contato">&nbsp</a>
+            <a href="/" name="contato"></a>
             <h2>Contato</h2>
             <div>
                 <label className="contatoItem">E-mail:</label>

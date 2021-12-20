@@ -8,7 +8,7 @@ import Projeto4jpeg from "../imagens/projeto4.jpeg"
 export default function Projetos(props) {
     return (
         <div className="projetosContainer">
-            <a  href="#" name="projetos" >&nbsp</a>
+            <a href="/" name="projetos"></a>
             <span>Clique no nome do projeto para ver os detalhes.</span>
             <span>Clique nas imagens para acessar os projetos.</span>
             <div className="projeto">

@@ -14,7 +14,8 @@
 }
 
 a[name="projetos"] {
-    display: none;
+    position: absolute;
+    visibility: hidden;
 }
 
 .projeto {
