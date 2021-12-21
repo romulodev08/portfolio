@@ -4,8 +4,9 @@ import ReactDOM from 'react-dom';
 import "./estilo/geral.css"
 import Cabeçalho from "./componentes/cabeçalho.jsx"
 import Inicial from "./componentes/inicial.jsx"
-import Contato from "./componentes/contato.jsx"
 import Projetos from "./componentes/projetos.jsx"
+import Contato from "./componentes/contato.jsx"
+import Rodapé from "./componentes/rodapé.jsx"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Inicial />
     <Projetos />
     <Contato />
+    <Rodapé />
   </React.StrictMode>,
   document.getElementById('root')
 );

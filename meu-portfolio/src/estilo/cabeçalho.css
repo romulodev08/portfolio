@@ -1,7 +1,7 @@
 @font-face {
     font-family: [Cover];
     src: url("./fontes/antique_book_cover.otf");
-}
+}/* font: normal 25px Cover, sans-serif; */
 
 * {
     margin: 0;

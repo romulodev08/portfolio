@@ -86,7 +86,7 @@ a[name="inicio"] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
-    border-bottom: solid 2px black;
+    border-bottom: solid 1px black;
 }
 .containerSsobre h2 {
     grid-column: 1/2;

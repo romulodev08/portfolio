@@ -1,11 +1,11 @@
 import { Component } from "react";
-
+import "../estilo/rodape.css"
 
 export default class Rodapé extends Component{
     render() {
         return(
             <footer>
-                <span>Criado por RÔmulo Martins</span>
+                <p>Site criado por Rômulo Martins</p>
             </footer>
         )
     }

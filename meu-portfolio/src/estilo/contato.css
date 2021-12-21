@@ -15,6 +15,15 @@ a[name="contato"] {
     margin: auto;
     padding: 10px;
     gap: 20px;
+    border-bottom: solid 1px black;
+}
+.containerContato > h2 {
+    width: 100%;
+    margin-bottom: 10px;
+    font: normal 22px Cover, sans-serif;
+    text-indent: 15px;
+    background: linear-gradient(to right, #247B7B, #3ac0c0, #247b7b09);
+    color: #f3f9d2;
 }
 .containerContato > div {
     display: inline-flex;
@@ -23,8 +32,10 @@ a[name="contato"] {
     height: 40px;
     text-indent: 10px;
     border-left: solid 3px #247B7B;
-    background: linear-gradient(TO right, #f3f9d2, #f3f9d2d5, #f3f9d200);
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+    color: #2f2f2f;
     margin-bottom: 5px;
+    font-size: 17px;
 }
 .containerContato > div .contatoItem {
     height: fit-content;
