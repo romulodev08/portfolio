@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a[name="contato"] {
+    position: absolute;
+    visibility: hidden;
+}
 .containerContato {
     width: 100%;
     max-width: 900px;

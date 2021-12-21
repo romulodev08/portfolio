@@ -8,9 +8,14 @@ import Projeto4jpeg from "../imagens/projeto4.jpeg"
 export default function Projetos(props) {
     return (
         <div className="projetosContainer">
-            <a href="/" name="projetos"></a>
-            <span>Clique no nome do projeto para ver os detalhes.</span>
-            <span>Clique nas imagens para acessar os projetos.</span>
+            <a href="/"  name="projetos">.</a>
+            <h2>Projetos</h2>
+            <div className="orientação">
+                <span>Clique no nome do projeto para ver os detalhes.</span>
+                <span>Clique nas imagens para acessar(abrir) os projetos.</span>
+                <a href="https://github.com/romulodev08" target="_blank" rel="noopener noreferrer">Veja meu perfil no Github</a>
+            </div>
+            
             <div className="projeto">
                 <details>
                     <summary>

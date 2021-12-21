@@ -29,8 +29,8 @@ export default class Inicial extends Component {
     };
     render() {
         return (
-            <div>
-                <a href="/" name="inicio" ></a>
+            <section className="inicial">
+                <a href="/" name="inicio" >.</a>
                 <section className="apresentação">
                     <div className="saudação">
                         <p className="saudaçãoItem">{this.state.saudação}, meu nome é</p>
@@ -43,7 +43,7 @@ export default class Inicial extends Component {
                 </section>
                 <section className="containerSsobre">
                     <h2>Sobre</h2>
-                    <div className="sobre">
+                    <div className="info">
                         <h3>Quem sou eu?</h3>
                         <p>Meu nome é Rômulo Martins, estudo desenvolvimento web Front End desde 2020 e busco uma primeira vaga atuando na área para aprimorar minhas habilidades e contribuir para uma melhor evolução tecnológica de sua empresa.</p>
                         <a href={Curriculo} rel='noopener noreferrer' target="_blank">Veja meu currículo</a>
@@ -52,7 +52,7 @@ export default class Inicial extends Component {
                         <img src={FotoDePerfil} alt="" />
                     </div>
                 </section>
-            </div>
+            </section>
         )
     }
 }

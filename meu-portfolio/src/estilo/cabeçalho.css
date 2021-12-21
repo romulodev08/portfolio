@@ -18,6 +18,7 @@ header {
     box-sizing: border-box;
     background-color: #2f2f2f;
     color: #f3f9d2;
+    z-index: 2;
 }
 header > h1 {
     font: normal 25px Cover, sans-serif;
