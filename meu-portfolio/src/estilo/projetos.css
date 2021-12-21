@@ -13,10 +13,8 @@
     max-width: 900px;
     margin: 10px auto;
     padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     justify-content: space-around;
-    gap: 20px;
     background-color: rgba(255, 0, 0, 0);
     border-bottom: solid 2px black;
 }
@@ -67,10 +65,12 @@ a[name="projetos"] {
 
 .projeto {
     width: 100%;
+    max-width: 289px;
     border: solid 2px black;
     border-radius: 16px;
     display: grid;
     grid-template-rows: 1fr;
+    margin: 13px auto;
 }
 .projeto details {
     grid-column: 1;
@@ -94,8 +94,10 @@ a[name="projetos"] {
     height: calc(100% - 30px);
     padding: 15px;
     border-radius:  0 0 12px 12px;
-    z-index: 2;
-    background-color: darkgrey;
+    font: normal 14px "Helvética", sans-serif;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #f3f9d2;
+    z-index: 1;
 }
 .projeto .thumb {
     overflow: hidden;
@@ -118,20 +120,35 @@ a[name="projetos"] {
     transform: scale(1.06);
     border-radius: 50px;
 }
-@media (min-width: 620px) {
+
+@media (min-width: 440px) {
     .projetosContainer {
+        display: grid;
         grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
     }
     .projetosContainer .orientação a:hover {
         background-color: #f3f9d2;
         color: #247B7B;
-    }.projeto details summary:hover {
+    }
+    .projeto details summary:hover {
         font-size: 22px;
         padding-top: 3px;
         cursor: pointer;
         background-color: #247B7B;
         color: #f3f9d2;
     }
+    .projeto {
+        width: 100%;
+        max-width: none;
+    }
+}
+@media (min-width: 620px) {
+    .projetosContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
 }
 
 

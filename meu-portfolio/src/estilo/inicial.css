@@ -137,7 +137,12 @@ a[name="inicio"] {
     border-radius: 50%;
     border: solid 1px black;
 }
-
+@media(min-width: 440px) {
+    .containerSsobre > .info a:hover {
+        background-color: #f3f9d2;
+        color: #247B7B;
+    }
+}
 @media (min-width: 620px) {
     .containerSsobre > .info{
         padding-left: 30px;
@@ -148,9 +153,5 @@ a[name="inicio"] {
         display: flex;
         flex-wrap: wrap;
         margin: auto;
-    }
-    .containerSsobre > .info a:hover {
-        background-color: #f3f9d2;
-        color: #247B7B;
     }
 }

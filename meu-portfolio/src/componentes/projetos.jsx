@@ -23,7 +23,7 @@ export default function Projetos(props) {
                     </summary>
                     <section>
                         <p>
-                            modelo de site criado como exercício em um curso de HTML5 e CSS3 (cursoemvideo.com).
+                            Modelo de site criado como exercício em um curso de HTML5 e CSS3 (cursoemvideo.com).
                         </p>
                     </section>
                 </details>
@@ -40,7 +40,7 @@ export default function Projetos(props) {
                     </summary>
                     <section>
                         <p>
-                            projeto criado para calcular a divisão de uma despesa de maneira justa baseando-se no salário de cada pessoa que irá pagá-la.
+                            Projeto criado para calcular a divisão de uma despesa de maneira justa baseando-se no salário de cada pessoa que irá pagá-la.
                         </p>
                     </section>
                 </details>
