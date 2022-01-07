@@ -43,3 +43,11 @@ a[name="contato"] {
     top: 50%;
     transform: translateY(-50%);
 }
+.containerContato > div .contatoItem > a{
+    text-decoration-line: none;
+    color: rgb(0, 4, 255);
+}
+.containerContato > div .contatoItem > a:hover{
+    text-decoration-line: none;
+    color: rgb(0, 217, 255);
+}
