@@ -18,7 +18,7 @@
 }
 
 .inicial {
-    background: #f3f9d2;
+    background: #F7F7FF;
 }
 
 a[name="inicio"] {
@@ -39,8 +39,9 @@ a[name="inicio"] {
 }
 
 .apresentação h2 {
-    font: normal 25px Cover, sans-serif;
-    color: #247B7B;
+    font: 25px Cover, sans-serif;
+    font-weight: 600;
+    color: #473BF0;
 }
 
 .apresentação > .containerImg {
@@ -95,13 +96,13 @@ a[name="inicio"] {
     margin-bottom: 10px;
     font: normal 22px Cover, sans-serif;
     text-indent: 15px;
-    background: linear-gradient(to right, #247B7B, #3ac0c0, #247b7b09);
-    color: #f3f9d2;
+    background: linear-gradient(to right, #473BF0, #8D85F2, #8c85f218);
+    color: #F7F7FF;
 }
 
 .containerSsobre  h3 {
     font: normal 20px Cover, sans-serif;
-    color: #247B7B;
+    color: #473BF0;
 }
 
 .containerSsobre > .info {
@@ -113,14 +114,15 @@ a[name="inicio"] {
 }
 .containerSsobre > .info a {
     text-decoration-line: none;
-    padding: 6px;
+    padding: 4px;
     border-radius: 10px;
     position: relative;
     top: 13px;
-    background-color: #247B7B;
-    color: #f3f9d2;
-    border: solid 2px #247B7B;
+    background-color: #473BF0;
+    color: #F7F7FF;
+    border: solid 3px #473BF0;
     transition: linear 200ms;
+    font-weight: 600;
 }
 .containerSsobre > .containerFotoDePerfil {
     grid-row: 2;
@@ -139,8 +141,8 @@ a[name="inicio"] {
 }
 @media(min-width: 440px) {
     .containerSsobre > .info a:hover {
-        background-color: #f3f9d2;
-        color: #247B7B;
+        background-color: #F7F7FF;
+        color: #473BF0;
     }
 }
 @media (min-width: 620px) {

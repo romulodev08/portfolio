@@ -26,8 +26,8 @@
     margin-bottom: 10px;
     font: normal 22px Cover, sans-serif;
     text-indent: 15px;
-    background: linear-gradient(to right, #247B7B, #3ac0c0, #247b7b09);
-    color: #f3f9d2;
+    background: linear-gradient(to right, #473BF0, #8D85F2, #8c85f218);
+    color: #F7F7FF;
 }
 
 .projetosContainer .orientação {
@@ -47,9 +47,9 @@
     border-radius: 10px;
     position: relative;
     top: 13px;
-    background-color: #247B7B;
-    color: #f3f9d2;
-    border: solid 2px #247B7B;
+    background-color: #473BF0;
+    color: #F7F7FF;
+    border: solid 2px #473BF0;
     transition: linear 200ms;
     margin-bottom: 15px;
 }
@@ -96,7 +96,7 @@ a[name="projetos"] {
     border-radius:  0 0 12px 12px;
     font: normal 14px "Helvética", sans-serif;
     background-color: rgba(0, 0, 0, 0.726);
-    color: #f3f9d2;
+    color: #F7F7FF;
     z-index: 1;
 }
 .projeto .thumb {
@@ -128,15 +128,15 @@ a[name="projetos"] {
         column-gap: 20px;
     }
     .projetosContainer .orientação a:hover {
-        background-color: #f3f9d2;
-        color: #247B7B;
+        background-color: #F7F7FF;
+        color: #473BF0;
     }
     .projeto details summary:hover {
         font-size: 22px;
         padding-top: 3px;
         cursor: pointer;
-        background-color: #247B7B;
-        color: #f3f9d2;
+        background-color: #473BF0;
+        color: #F7F7FF;
     }
     .projeto {
         width: 100%;

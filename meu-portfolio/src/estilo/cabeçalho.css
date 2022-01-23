@@ -16,17 +16,17 @@ header {
     justify-content: space-between;
     padding: 8px 10px;
     box-sizing: border-box;
-    background-color: #2f2f2f;
-    color: #f3f9d2;
+    background-color: #1E2D24;
+    color: #F7F7FF;
     z-index: 2;
 }
 header > h1 {
     font: normal 25px Cover, sans-serif;
     line-height: -10px;
-    color: #f3f9d2;
+    color: #F7F7FF;
 }
 header > h1 > span {
-    color: #247B7B;
+    color: #8D85F2;
 }
 .menu {
     position: absolute;
@@ -48,7 +48,7 @@ header > h1 > span {
 .trace {
     width: 40px;
     height: 4px;
-    background-color: #f3f9d2;
+    background-color: #F7F7FF;
     border-radius: 3px;
     margin: auto;
     margin-top: 5px;
@@ -65,7 +65,7 @@ input[name="inputBotaomenu"] {
     text-align: center;
     margin-top: 50px;
     visibility: hidden;
-    border-top: solid 1px #f3f9d2;
+    border-top: solid 1px #F7F7FF;
     transition: linear 300ms;
     background-color: rgba(128, 128, 128, 0);
 }
@@ -93,7 +93,7 @@ input[name="inputBotaomenu"]:checked ~ #navegação {
         visibility: visible;
         box-sizing: border-box;
         background-color: transparent;
-        color: #f3f9d2;
+        color: #F7F7FF;
         border: none;
     }
 }
@@ -102,9 +102,10 @@ input[name="inputBotaomenu"]:checked ~ #navegação {
     padding: 6px;
     border-radius: 10px;
     text-decoration-line: none;
-    color: white;
+    color: #F7F7FF;
 }
 .link:hover {
     background-color: white;
+    box-shadow: 1px 1px 10px grey;
     color: rgb(0, 0, 0)
 }
