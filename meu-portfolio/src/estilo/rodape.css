@@ -11,7 +11,7 @@
 footer {
     width: 100%;
     padding: 10px;
-    background-color: #f3f9d2;
+    background-color: #F7F7FF;
 }
 footer > p {
     width: 100%;
@@ -19,5 +19,5 @@ footer > p {
     font: normal 18px Cover, sans-serif;
     text-align: center;
     background: #2f2f2f;
-    color: #f3f9d2;
+    color: #F7F7FF;
 }
