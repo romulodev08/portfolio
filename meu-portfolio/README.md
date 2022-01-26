@@ -78,5 +78,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - fontes: #000, 
 - background dos subtitulos: #473BF0 degrade
 ## fontes
-- títulos: "./src/estilo/fontes/antique_book_cover.otf"
+- títulos: "./src/estilo/fontes/antique_book_cover.otf" ou sans-serif
 - parágrafos e outros: serif
