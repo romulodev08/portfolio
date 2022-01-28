@@ -4,7 +4,7 @@ import "../estilo/inicial.css"
 
 import FotoDePerfilA from "../imagens/foto-sem-fundo.png"
 import FotoDePerfil from "../imagens/foto-do-currículo.jpeg"
-import Curriculo from "../documentos/currículoFrontEndJrRom-5.pdf"
+import Curriculo from "../documentos/CFrontEnd2022.pdf"
 
 export default class Inicial extends Component {
     constructor(props) {
